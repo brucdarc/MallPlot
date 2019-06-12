@@ -1,0 +1,35 @@
+steamboat:~/Desktop/blockchain/naivechain$ curl http://charleston.cs.colostate.edu:3003/blocks | python -m json.tool
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   871  100   871    0     0   141k      0 --:--:-- --:--:-- --:--:--  141k
+[
+    {
+        "data": "my genesis block!!",
+        "hash": "816534932c2b7154836da6afc367695e6337db8a921823784c14378abed4f7d7",
+        "index": 0,
+        "previousHash": "0",
+        "timestamp": 1465154705
+    },
+    {
+        "data": "Bruce Darcy - longer chain data 1",
+        "hash": "d75d849d993b5328b490ab0675f24cac03447ab2e8bd77184e54351a6099f4ee",
+        "index": 1,
+        "previousHash": "816534932c2b7154836da6afc367695e6337db8a921823784c14378abed4f7d7",
+        "timestamp": 1548456231.908
+    },
+    {
+        "data": "Bruce Darcy - longer chain data 2",
+        "hash": "e7659c03f259490c08665df5a324163fcc5a8040ebf3cdb2dad01ab8307a1e0b",
+        "index": 2,
+        "previousHash": "d75d849d993b5328b490ab0675f24cac03447ab2e8bd77184e54351a6099f4ee",
+        "timestamp": 1548456234.191
+    },
+    {
+        "data": "Bruce Darcy - longer chain data 3",
+        "hash": "1731981e6015a3623cf02c39c1e1849e7468cc81c6b241dfd17b5e220141a698",
+        "index": 3,
+        "previousHash": "e7659c03f259490c08665df5a324163fcc5a8040ebf3cdb2dad01ab8307a1e0b",
+        "timestamp": 1548456241.328
+    }
+]
+
